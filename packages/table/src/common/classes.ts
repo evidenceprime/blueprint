@@ -111,6 +111,9 @@ export const TABLE_TRUNCATED_POPOVER_TARGET = `${NS}-table-truncated-popover-tar
 export const TABLE_TRUNCATED_TEXT = `${NS}-table-truncated-text`;
 export const TABLE_TRUNCATED_VALUE = `${NS}-table-truncated-value`;
 export const TABLE_VERTICAL_GUIDE = `${NS}-table-vertical-guide`;
+export const RESIZE_SENSOR_STYLE = `${NS}-resize-sensor-style`;
+export const RESIZE_SENSOR_STYLE_EXPAND = `${NS}-resize-sensor-style-expand`;
+export const RESIZE_SENSOR_STYLE_SHRINK = `${NS}-resize-sensor-style-shrink`;
 
 /** Common code for row and column index class generator functions, since they're essentially the same. */
 function dimensionIndexClass(classPrefix: string, index: string | number) {

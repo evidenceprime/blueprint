@@ -178,3 +178,30 @@ $reorder-handle-width: 22px !default;
     margin-left: 0;
   }
 }
+
+.#{ns}-resize-sensor-style {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: -1;
+  visibility: hidden;
+}
+
+.#{ns}-resize-sensor-style-expand {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0s;
+}
+
+.#{ns}-resize-sensor-style-shrink {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0s;
+  width: 200%;
+  height: 200%;
+}
