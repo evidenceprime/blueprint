@@ -180,28 +180,28 @@ $reorder-handle-width: 22px !default;
 }
 
 .#{ns}-resize-sensor-style {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
   bottom: 0;
+  left: 0;
   overflow: hidden;
-  z-index: -1;
+  position: absolute;
+  right: 0;
+  top: 0;
   visibility: hidden;
+  z-index: -1;
 }
 
 .#{ns}-resize-sensor-style-expand {
-  position: absolute;
   left: 0;
+  position: absolute;
   top: 0;
   transition: 0s;
 }
 
 .#{ns}-resize-sensor-style-shrink {
-  position: absolute;
+  height: 200%;
   left: 0;
+  position: absolute;
   top: 0;
   transition: 0s;
   width: 200%;
-  height: 200%;
 }
